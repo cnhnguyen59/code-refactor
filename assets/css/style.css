@@ -1,13 +1,17 @@
+/*Assigns paddng, margin, and width and height properties to the whole page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*  Applies background color to body of page
+    Changed from div*/
 body {
     background-color: #d9dcd6;
 }
 
+/*changed from header class to element header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,18 @@ header {
     color: #ffffff;
 }
 
+/*changed from .header h1*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*changed from .header h1 .seo */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*changed from .header div*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +39,12 @@ header nav {
     font-size: 20px;
 }
 
+/*changed from .header div ul*/
 header nav ul {
     list-style-type: none;
 }
 
+/*changed from .header div ul li*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -50,6 +59,7 @@ p {
     font-size: 16px;
 }
 
+/*changed from hero class to figure element*/
 figure {
     height: 800px;
     width: 100%;
@@ -188,6 +198,7 @@ main {
     font-size: 36px;
 }
 
+/*changed from footer class to footer element*/
 footer {
     padding: 30px;
     clear: both;
@@ -195,6 +206,7 @@ footer {
     text-align: center;
 }
 
+/*changed from h2 to h4*/
 footer h4 {
     font-size: 20px;
 }
